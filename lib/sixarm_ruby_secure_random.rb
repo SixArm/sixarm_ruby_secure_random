@@ -1,15 +1,15 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: SecureRandom number generator for Ruby 1.8.6, backported from 1.8.7
+= SixArm Ruby Gem » SecureRandom
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; I merely made it into a gem.
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
-This gem is intended for use with Ruby 1.8.6 only.
+SecureRandom is a secure random number generator for Ruby 1.8.6 only.
 
-This gem is a backport of the built-in securerandom method from Ruby 1.8.7.
+This gem is a backport of the securerandom method from Ruby 1.8.7.
 
 This library is an interface for secure random number generator which is
 suitable for generating session key in HTTP cookies, etc.
