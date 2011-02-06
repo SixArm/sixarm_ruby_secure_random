@@ -2,8 +2,7 @@
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; I merely made it into a gem.
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: See LICENSE.txt file
 
 This gem is intended for use with Ruby 1.8.6 only.
 
