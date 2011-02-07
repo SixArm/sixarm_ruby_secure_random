@@ -1,11 +1,11 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem » SecureRandom
+= SixArm.com » Ruby » SecureRandom number generator for Ruby 1.8.6, backported from 1.8.7
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; I merely made it into a gem.
-License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
+License:: See LICENSE.txt file
 
 SecureRandom is a secure random number generator for Ruby 1.8.6 only.
 
