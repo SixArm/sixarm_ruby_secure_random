@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » SecureRandom number generator for Ruby 1.8.6, backported from 1.8.7
