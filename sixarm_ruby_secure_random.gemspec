@@ -1,10 +1,6 @@
 Gem::Specification.new do |s|
 
-  NAME                = "sixarm_ruby_secure_random"
-  SOURCES             = []
-  TESTERS             = []
-
-  s.name              = NAME
+  s.name              = "sixarm_ruby_secure_random"
   s.summary           = "SixArm.com » Ruby » secure random number method for Ruby 1.8.6"
   s.version           = "1.2.1"
   s.author            = "SixArm"
@@ -17,9 +13,14 @@ Gem::Specification.new do |s|
   s.require_path      = 'lib'
   s.has_rdoc          = true
 
-  s.files             = [".gemtest","Rakefile","README.rdoc","LICENSE.txt"]
-                        ["lib/#{NAME}.rb"] + SOURCES.map{|x| "lib/#{NAME}/#{x}.rb"} +
-                        ["test/#{NAME}.rb"] + TESTERS.map{|x| "test/#{NAME}/#{x}"}
-  s.test_files        = SOURCES.map{|x| "test/#{NAME}/#{x}_test.rb"}
+  SOURCES             = []
+  TESTERS             = []
+
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"]
+  test_files          = ["test/#{s.name}_test.rb"]
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
 end

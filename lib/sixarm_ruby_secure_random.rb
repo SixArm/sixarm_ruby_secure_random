@@ -1,46 +1,7 @@
 # -*- coding: utf-8 -*-
-
 =begin rdoc
-
-= SixArm.com » Ruby » SecureRandom number generator for Ruby 1.8.6, backported from 1.8.7
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright the original author; I merely made it into a gem.
-License:: See LICENSE.txt file
-
-SecureRandom is a secure random number generator for Ruby 1.8.6 only.
-
-This gem is a backport of the securerandom method from Ruby 1.8.7.
-
-This library is an interface for secure random number generator which is
-suitable for generating session key in HTTP cookies, etc.
-
-It supports following secure random number generators.
-
-  * openssl
-  * /dev/urandom
-
-Examples
-  SecureRandom.hex(10) => "52750b30ffbc7de3b362"
-  SecureRandom.hex(10) => "92b15d6c8dc4beb5f559"
-  SecureRandom.hex(11) => "6aca1b5c58e4863e6b81b8"
-  SecureRandom.hex(12) => "94b2fff3e7fd9b9c391a2306"
-  SecureRandom.hex(13) => "39b290146bea6ce975c37cfc23"
-
-Examples
-  SecureRandom.base64(10) => "EcmTPZwWRAozdA=="
-  SecureRandom.base64(10) => "9b0nsevdwNuM/w=="
-  SecureRandom.base64(10) => "KO1nIU+p9DKxGg=="
-  SecureRandom.base64(11) => "l7XEiFja+8EKEtY="
-  SecureRandom.base64(12) => "7kJSM/MzBJI+75j8"
-  SecureRandom.base64(13) => "vKLJ0tXBHqQOuIcSIg=="
-
-Examples
-  SecureRandom.random_bytes(10) => "\016\t{\370g\310pbr\301"
-  SecureRandom.random_bytes(10) => "\323U\030TO\234\357\020\a\337"
-
+Please see README
 =end
-
 
 begin
   require 'openssl'
