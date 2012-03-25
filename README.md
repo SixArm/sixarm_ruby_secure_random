@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
 
-* Docs: <http://sixarm.com/sixarm_ruby_secure_random/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_secure_random/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_secure_random>
 * Repo: <http://github.com/sixarm/sixarm_ruby_secure_random>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
