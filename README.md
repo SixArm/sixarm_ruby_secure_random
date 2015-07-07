@@ -80,8 +80,3 @@ Generate bytes:
 For docs go to <http://sixarm.com/sixarm_ruby_secure_random/doc>
 
 Want to help? We're happy to get pull requests.
-
-
-## Changes
-
-* 2012-03-14 1.2.1 Update docs, tests
