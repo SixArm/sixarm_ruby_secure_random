@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
+# SixArm.com → Ruby → <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
 
 * Doc: <http://sixarm.com/sixarm_ruby_secure_random/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_secure_random>
