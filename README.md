@@ -16,23 +16,21 @@ suitable for generating session key in HTTP cookies, etc.
 
 ## Install
 
-To install using a Gemfile, add this:
+### Gem
 
-    gem "sixarm_ruby_secure_random", ">= 1.2.2", "< 2"
+Run this command in your shell or terminal:
 
-To install using the command line, run this:
+    gem install sixarm_ruby_secure_random
 
-    gem install sixarm_ruby_secure_random -v ">= 1.2.2, < 2"
+Or add this to your Gemfile:
 
-To install using the command line with high security, run this:
+    gem 'sixarm_ruby_secure_random'
 
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_secure_random -v ">= 1.2.2, < 2" --trust-policy HighSecurity
+### Require
 
 To require the gem in your code:
 
-    require "sixarm_ruby_secure_random"
+    require 'sixarm_ruby_secure_random'
 
 <!--INSTALL-SHUT-->
 
