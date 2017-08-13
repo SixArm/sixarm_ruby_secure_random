@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_secure_random"
-  s.summary           = "SixArm.com » Ruby » SecureRandom"
+  s.summary           = "SixArm.com → Ruby → SecureRandom"
   s.description       = "SecureRandom number method for Ruby 1.8.6"
   s.version           = "1.2.2"
 
