@@ -3,7 +3,7 @@
 * Doc: <http://sixarm.com/sixarm_ruby_secure_random/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_secure_random>
 * Repo: <http://github.com/sixarm/sixarm_ruby_secure_random>
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -12,7 +12,7 @@ This library is an interface for secure random number generator which is
 suitable for generating session key in HTTP cookies, etc.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -32,7 +32,7 @@ To require the gem in your code:
 
     require 'sixarm_ruby_secure_random'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
 
 
 ## Details
