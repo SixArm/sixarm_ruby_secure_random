@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: SixArm.com → Ruby → <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
+message: >-
+  If you use this work and you want to cite it,
+  then you can use the metadata from this file.
+type: software
+authors:
+  - given-names: Joel Parker
+    family-names: Henderson
+    email: joel@joelparkerhenderson.com
+    affiliation: joelparkerhenderson.com
+    orcid: 'https://orcid.org/0009-0000-4681-282X'
+identifiers:
+  - type: url
+    value: 'https://github.com/SixArm/sixarm_ruby_secure_random/'
+    description: SixArm.com → Ruby → <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
+repository-code: 'https://github.com/SixArm/sixarm_ruby_secure_random/'
+abstract: >-
+  SixArm.com → Ruby → <br> SecureRandom gem number generator for Ruby 1.8.6, backported from 1.8.7
+license: See license file
